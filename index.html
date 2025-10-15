@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata and Page Settings -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Gallery</title>
+
+    <!-- Main CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="p0-main-header">
+        <!-- Logo / Home link -->
+        <a href="#" class="p0-logo" data-project="home">AndreWebDev</a>
+
+        <!-- Navigation Bar -->
+        <nav class="p0-header-right">
+            <!-- Hamburger menu for mobile -->
+            <button class="p0-hamburger-menu" aria-label="Toggle navigation">&#9776;</button>
+            <!-- Navigation links to different projects -->
+            <ul class="p0-nav-links">
+                <li><a href="#" data-project="profile-card">Profile Card</a></li>
+                <li><a href="#" data-project="cosmic-explorer">Cosmic Explorer</a></li>
+                <li><a href="#" data-project="travel-guide">Travel Guide</a></li>
+                <li><a href="#" data-project="passenger-counter">Passenger Counter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="p0-content-area">
+        <!-- Loading placeholder while projects are dynamically loaded -->
+        <div class="p0-loading">Loading projects...</div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="p0-main-footer">
+        <div class="p0-footer-grid">
+            <!-- Empty space / alignment placeholder -->
+            <div class="p0-footer-item"></div>
+
+            <!-- Center footer with copyright and social links -->
+            <div class="p0-footer-item p0-footer-center">
+                <p>&copy; 2025 AndreWebDev</p>
+                <div class="p0-social-links">
+                    <!-- GitHub link -->
+                    <a href="https://github.com/andreiPor" target="_blank" aria-label="GitHub Profile">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!-- LinkedIn link -->
+                    <a href="https://www.linkedin.com/in/andrei-porubin-426b62329/" target="_blank"
+                        aria-label="LinkedIn Profile">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Empty space / alignment placeholder -->
+            <div class="p0-footer-item"></div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
