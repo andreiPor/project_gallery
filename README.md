@@ -10,5 +10,5 @@ A Single-Page Application (SPA) showcasing my frontend skills through four mini-
 - JavaScript ⚡
 - Font Awesome for icons 🎭
 
-[🌐 Enjoy the Project](https://yourusername.github.io/project_gallery/)
+[🌐 Enjoy the Project](https://yourusername.github.io/project_gallery/](https://andreipor.github.io/project_gallery/)
 
