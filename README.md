@@ -1,4 +1,4 @@
-                                                      # AndreWebDev | Project Gallery 🌟
+                                                       Project Gallery 🌟
 
 ![Project Preview](img/image.png)
 
