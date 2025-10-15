@@ -215,7 +215,7 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 
 .p2-cosmic-container {
-    background-image: url("/img/universe.jpg");
+    background-image: url("img/universe.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -370,7 +370,7 @@ p {
 }
 
 .p4-counter-container {
-    background-image: url("/img/train_station.jpg");
+    background-image: url("img/train_station.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 400px;
@@ -465,3 +465,4 @@ p {
         margin: 20px auto;
     }
 }
+
